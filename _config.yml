@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "MUSA 550: Geospatial Data Science in Python"
+title: "CO2 Emission Analysis for Trucks vs Drones in urban and sub-urban areas"
 title_separator: "-"
 name: "Surya"
 description: "Displaying cool data visualizations"
