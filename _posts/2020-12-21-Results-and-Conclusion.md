@@ -3,7 +3,7 @@ title: "Results and Conclusion"
 date: 2020-12-21
 published: true
 tags: [dataviz, matplotlib]
-excerpt: "Testing package delivery in an urban-block street network" 
+excerpt: "Overview of predictions and potential future research" 
 toc: true
 toc_sticky: true
 read_time: false
