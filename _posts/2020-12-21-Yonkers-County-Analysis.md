@@ -20,7 +20,7 @@ read_time: false
 ## Plotting UPS Store Locations
 We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manhattan Map. These facilities serve as access points for UPS trucks to pick-up orders that are to be delivered.
 
-## UPS Stores and UPS Customer Center Facility in Yonkers County
+UPS Stores and UPS Customer Center Facility in Yonkers County
 <div id="folium-chart-1"></div>
 
 ## Buffer radius of 4km from each facility: 
