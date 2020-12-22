@@ -17,24 +17,27 @@ read_time: false
 
 ## Package Delivery using Truck and Drones in Yonkers County
 
-## Location of UPS Stores 
+## Plotting UPS Store Locations
 We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manhattan Map. These facilities serve as access points for UPS trucks to pick-up orders that are to be delivered.
 
-UPS Stores and UPS Customer Center Facility in Yonkers County
+## UPS Stores and UPS Customer Center Facility in Yonkers County
 <div id="folium-chart-1"></div>
 
-## Buffer radius
-Creating a buffer radius of 4km around each facility 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-Buffers.png)
+## Buffer radius of 4km from each facility: 
+The suburban area of Yonkers County is categorized into zones (buffer radii or optimized polygon) for each UPS store. The radii for each buffer is determined to ensure minimum overlap. Each buffer zone serves as a bounding radius for the maximum travel path of trucks and drones.
+![Yonkers-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-Buffers.png)
 
-## Cluster Zones
-Identifying 30 random samples (delivery recipients) in cluster-zone-1 and cluste-zone-2
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
+## Origin Point and Destination Point
+The origin point is located at the center of the buffer polygon. The nearest open-street-map(OSM) node is also calculated
+The number of destination points in each zone are determined based on the size of the clusters and therefore the density of the neighborhood. For example, the noise cluster is assumed to have the least number of destination points while the cluster with size 24 is assumed to have most destination points.
 
-## Drone path of travel:
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/yonkers_Drone.png)
+## Mapping Drone Paths:
+Here a straight line path is plotted assuming drones would fly over the buildings to its destination point. 
+![random-points-yonkers]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
+From the above analysis, total emissions for drones will be calculated based on operational carbon emissions.
 
-## UPS Truck path of travel:
+## Mapping UPS Truck Paths:
+
 Cluster-zone-01: 
 Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 <div id="folium-chart-2"></div>
@@ -43,7 +46,11 @@ Cluster-zone-02:
 Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 <div id="folium-chart-3"></div>
 
+The calculated results can be found [here][here]
 
+
+
+[here]:https://suryajps.github.io/Spatial-Analysis-for-Drone-vs-Truck-Deliveries-/Results-and-Conclusion/
 
 
 
