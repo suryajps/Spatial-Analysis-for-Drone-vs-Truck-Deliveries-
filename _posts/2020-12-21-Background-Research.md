@@ -17,7 +17,8 @@ Our final project seeks to conduct a similar analysis on two sites, Manhattan NY
 *References:* <br/>
 *Goodchild, Anne, and Jordan Toy. 2018. “Delivery by Drone: An Evaluation of Unmanned Aerial Vehicle Technology in Reducing CO2 Emissions in the Delivery Service Industry.” Transportation Research Part D: Transport and Environment, Innovative Approaches to Improve the Environmental Performance of Supply Chains and Freight Transportation Systems, 61 (June): 58–67.* <br/>
 
-Documentation:[https://doi.org/10.1016/j.trd.2017.02.017][here]
+## Documentation:
+[https://doi.org/10.1016/j.trd.2017.02.017][here]
 
 
 [here]: https://doi.org/10.1016/j.trd.2017.02.017
