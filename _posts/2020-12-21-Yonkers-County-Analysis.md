@@ -31,6 +31,10 @@ The suburban area of Yonkers County is categorized into zones (buffer radii or o
 The origin point is located at the center of the buffer polygon. The nearest open-street-map(OSM) node is also calculated
 The number of destination points in each zone are determined based on the size of the clusters and therefore the density of the neighborhood. For example, the noise cluster is assumed to have the least number of destination points while the cluster with size 24 is assumed to have most destination points.
 
+## Delivery recipients in cluster-zones 
+Selection of a number of destination points of 30 and 45 respectively was based on the machine learning clusters. These points can always be increased incrementally.
+![Yonkers-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
+
 ## Mapping Drone Paths:
 Here a straight line path is plotted assuming drones would fly over the buildings to its destination point. 
 ![random-points-yonkers]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
