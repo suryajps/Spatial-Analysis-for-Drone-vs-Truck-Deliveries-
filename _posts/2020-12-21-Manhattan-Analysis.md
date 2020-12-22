@@ -3,7 +3,7 @@ title: "Manhattan Analysis"
 date: 2020-12-21
 published: true
 tags: [dataviz, matplotlib]
-excerpt: "Testing package delivery in an urban-block street network"
+excerpt: "OSMNX | Shortest Path | GeoPandas | Folium | DBSCAN"
 folium-loader:
   folium-chart-1: ["/assets/Manhattan_Images/Folium/2020-12-21-NYC-allfacility.html", "400"] # second argument is the height
   folium-chart-2: ["/assets/Manhattan_Images/Folium/2020-12-21-NYCRoute-Folium8.html", "400"] # second argument is the height
