@@ -18,17 +18,14 @@ read_time: false
 ---
 ## Package Delivery using Truck and Drones in Manhattan
 ## Plotting UPS Store Locations
-
 We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manhattan Map. These facilities serve as access points for UPS trucks to pick-up orders that are to be delivered.
 
 ## UPS Stores and UPS Customer Center Facilities in Manhattan
-
 <div id="folium-chart-1"></div>
 
 ## Un-supervised Clustering Analysis to geo-locate proximity of facilities
 There were 48 UPS customer center and UPS store facilities in the Manhattan Area, of which we assume that not all facilities would provide delivery service since they are located in close proximities. We used an unsupervised clustering algorithm to determine 3 clusters for further analysis. Each cluster has a varying number of UPS stores with figures 04, 05, and 21 UPS stores clustered for a particular label. The fourth cluster was chosen from noise samples to account for UPS Stores at farther locations.
  
-
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/NYC_ML.png)
 
 ## Buffer radius of 1.5km from each facility: 
@@ -49,7 +46,7 @@ Here a straight line path is plotted assuming drones would fly over the building
 ![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/drones.png)
 From the above analysis, total emissions for drones will be calculated based on operational carbon emissions. 
 
-## Mapping Truck Paths:
+## Mapping UPS Truck Paths:
 Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
 Truck path for 8 delivery locations
