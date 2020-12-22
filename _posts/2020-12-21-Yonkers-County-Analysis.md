@@ -36,9 +36,9 @@ Selection of a number of destination points of 30 and 45 respectively was based 
 ![Yonkers-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
 
 ## Mapping Drone Paths:
-Here a straight line path is plotted assuming drones would fly over the buildings to its destination point. 
-![random-points-yonkers]({{ site.url }}{{ site.baseurl }}/assets/images/yonkers_Drone.png)
-From the above analysis, total emissions for drones will be calculated based on operational carbon emissions.
+Here a straight line path is plotted assuming drones would fly over the buildings to its destination point. <br/>
+![random-points-yonkers]({{ site.url }}{{ site.baseurl }}/assets/images/yonkers_Drone.png) <br/>
+From the above analysis, total emissions for drones will be calculated based on operational carbon emissions.<br/>
 
 ## Mapping UPS Truck Paths:
 Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
