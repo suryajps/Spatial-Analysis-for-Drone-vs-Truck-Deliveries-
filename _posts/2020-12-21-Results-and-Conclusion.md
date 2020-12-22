@@ -8,11 +8,13 @@ toc: true
 toc_sticky: true
 read_time: false
 ---
+## Vehicle-Miles-Travel(VMT) per recipient
+![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/vmt_miles.png)
 
 ## Heatmap of kgCO2 Emission Differences 
 CO2 emission calculations for truck is based on distance traveled. Carbon emission for drones cannot be accounted solely based on its miles taveled as delivery-drones do not have tail pipe emissions. Hence, AER which is average energy requirement of the drone in Wh per mile was factored in to normalize energy expended by truck and drones in order to compare. Three sub scenarios were created with AER of 30Wh/mile, 60Wh/mile and 90Wh/mile. The final Seaborn plot shows a heatmap of CO2 emission differences between drone and truck deliveries with varying drone energy requirement for urban (Manhattan) and sub-urban (Yonkers) area. Cells with negative values indicate that drone emit less CO2 than Trucks.  
 
-![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/vmt_miles.png)
+
 
 Manhattan <br />
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Manhattan-Co2-Comparison.png)
