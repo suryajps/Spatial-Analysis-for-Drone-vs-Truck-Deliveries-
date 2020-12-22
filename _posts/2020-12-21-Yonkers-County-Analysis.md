@@ -41,13 +41,14 @@ Here a straight line path is plotted assuming drones would fly over the building
 From the above analysis, total emissions for drones will be calculated based on operational carbon emissions.
 
 ## Mapping UPS Truck Paths:
-
-Cluster-zone-01: 
 Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
+Cluster-zone-01: <br/>
+
 <div id="folium-chart-2"></div>
 
-Cluster-zone-02: 
-Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
+Cluster-zone-02: <br/>
+
+
 <div id="folium-chart-3"></div>
 
 The calculated results can be found [here][here]
