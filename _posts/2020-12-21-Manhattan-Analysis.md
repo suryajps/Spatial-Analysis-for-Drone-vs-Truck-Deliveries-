@@ -21,11 +21,12 @@ read_time: false
 
 We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manhattan Map. These facilities serve as access points for UPS trucks to pick-up orders that are to be delivered.
 
-## UPS Stores and UPS Customer Center Facility in Manhattan
+## UPS Stores and UPS Customer Center Facilities in Manhattan
 
 <div id="folium-chart-1"></div>
 
 ## Un-supervised Clustering Analysis to geo-locate proximity of facilities
+There were 48 UPS customer center and UPS store facilities in the Manhattan Area, of which we assume that not all facilities would provide delivery service since they are located in close proximities. Hence, we.... 
 
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/NYC_ML.png)
 
@@ -33,9 +34,10 @@ We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manh
 
 ![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/NYC_Buffer.png)
 
-## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
+## Identifying 8, 20, 35 and 45 random samples (delivery recipients) in cluster-zones 
+Selection of number of sample points was based on ....
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas0.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/drones.png)
 
 ## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
@@ -43,27 +45,31 @@ We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manh
 
 ## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas1.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas0.png)
 
 ## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
 <div id="folium-chart-3"></div>
 
-## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
+## Identifying 35 random samples (delivery recipients) in cluster-zone-1 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas2.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas1.png)
 
 ## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
 <div id="folium-chart-4"></div>
 
-## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
+## Identifying 45 random samples (delivery recipients) in cluster-zone-1 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas3.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas2.png)
 
 ## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point.
 
 <div id="folium-chart-5"></div>
 
-Below, we show the distance between residential sales and the average distance to the 5 nearest 311 calls for abandoned cars.
+From the above analysis, we calculated the Vehicle Miles Traveled and associated CO2 Emissions for Trucks
+
+## Mapping Drone paths for each cluster
+
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas2.png)
 
