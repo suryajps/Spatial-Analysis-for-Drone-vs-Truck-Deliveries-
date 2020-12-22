@@ -37,7 +37,7 @@ Selection of a number of destination points of 30 and 45 respectively was based 
 
 ## Mapping Drone Paths:
 Here a straight line path is plotted assuming drones would fly over the buildings to its destination point. 
-![random-points-yonkers]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
+![random-points-yonkers]({{ site.url }}{{ site.baseurl }}/assets/images/yonkers_Drone.png)
 From the above analysis, total emissions for drones will be calculated based on operational carbon emissions.
 
 ## Mapping UPS Truck Paths:
@@ -50,6 +50,9 @@ Cluster-zone-02: <br/>
 
 
 <div id="folium-chart-3"></div>
+
+
+With the help of the above analysis, total emissions for drones will be calculated based on operational carbon emissions. 
 
 The calculated results can be found [here][here]
 
