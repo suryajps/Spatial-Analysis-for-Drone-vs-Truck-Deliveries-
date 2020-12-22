@@ -3,7 +3,7 @@ title: "Background Research"
 date: 2020-12-21
 published: true
 tags: [dataviz, matplotlib]
-excerpt: "Testing package delivery in an urban-block street network" 
+excerpt: "Narrative Analysis for a Research Paper" 
 toc: true
 toc_sticky: true
 read_time: false
