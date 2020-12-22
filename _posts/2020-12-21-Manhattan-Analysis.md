@@ -6,12 +6,12 @@ tags: [dataviz, matplotlib]
 excerpt: "Testing package delivery in an urban-block street network"
 folium-loader:
   folium-chart-1: ["/assets/Manhattan_Images/Folium/2020-12-21-NYC-allfacility.html", "400"] # second argument is the height
-  folium-chart-2: ["/assets/Manhattan_Images/Folium/2020-12-21-NYCRoute-Folium8.html", "400"] # second argument is the height
-  folium-chart-3: ["/assets/Manhattan_Images/Folium/2020-12-21-NYCRoute-Folium20.html", "400"] # second argument is the height
-  folium-chart-4: ["/assets/Manhattan_Images/Folium/2020-12-21-NYCRoute-Folium35.html", "400"] # second argument is the height
-  folium-chart-5: ["/assets/Manhattan_Images/Folium/2020-12-21-NYCRoute-Folium45.html", "400"] # second argument is the height
+  folium-chart-2: ["/assets/Manhattan_Images/Folium/2020-12-21-NYCRoute-Folium8.html", "200"] # second argument is the height
+  folium-chart-3: ["/assets/Manhattan_Images/Folium/2020-12-21-NYC-Route-Folium20.html", "400"] # second argument is the height
+  folium-chart-4: ["/assets/Manhattan_Images/Folium/2020-12-21-NY-CRoute-Folium35.html", "200"] # second argument is the height
+  folium-chart-5: ["/assets/Manhattan_Images/Folium/2020-12-21-NY-CRoute-Folium45.html", "200"] # second argument is the height
   
-  
+
 toc: true
 toc_sticky: true
 read_time: false
