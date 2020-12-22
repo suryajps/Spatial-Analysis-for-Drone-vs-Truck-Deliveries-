@@ -21,9 +21,9 @@ Plotting 'UPS-Stores' and "UPS Customer Center Facility" on the map of Manhattan
 
 ## Un-supervised Clustering Analysis to geo-locate proximity of facilities
 
-![NYC-ML]({{ site.url }}{{ site.baseurl }}/assets/Manhattan_Images/PNG/images/NYC_ML.png)
+![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/Manhattan_Images/PNG/images/NYC_ML.png)
 
-![NYC-Buffer]({{ site.url }}{{ site.baseurl }}/assets/Manhattan_Images/PNG/images/NYC_Buffer.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/Manhattan_Images/PNG/images/NYC_Buffer.png)
 
 
 
