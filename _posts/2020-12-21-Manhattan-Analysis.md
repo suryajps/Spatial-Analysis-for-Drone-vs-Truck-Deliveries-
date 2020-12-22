@@ -37,39 +37,27 @@ There were 48 UPS customer center and UPS store facilities in the Manhattan Area
 ## Identifying 8, 20, 35 and 45 random samples (delivery recipients) in cluster-zones 
 Selection of number of sample points was based on ....
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/drones.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/random points_nyc.png)
 
 ## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
+Truck path for 8 delivery locations
 <div id="folium-chart-2"></div>
 
-## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
-
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas0.png)
-
-## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
-
+Truck path for 20 delivery locations
 <div id="folium-chart-3"></div>
 
-## Identifying 35 random samples (delivery recipients) in cluster-zone-1 
-
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas1.png)
-
-## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
-
+Truck path for 35 delivery locations
 <div id="folium-chart-4"></div>
 
-## Identifying 45 random samples (delivery recipients) in cluster-zone-1 
-
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas2.png)
-
-## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point.
-
+Truck path for 45 delivery locations
 <div id="folium-chart-5"></div>
 
 From the above analysis, we calculated the Vehicle Miles Traveled and associated CO2 Emissions for Trucks
 
 ## Mapping Drone paths for each cluster
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-NYC-Geopandas2.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/drones.png)
+
+Here a straight line path is plotted assuming drones would fly over the buildings to its destination point. 
 
