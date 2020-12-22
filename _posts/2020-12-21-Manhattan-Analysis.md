@@ -11,14 +11,24 @@ toc_sticky: true
 read_time: false
 ---
 
-# Section 1
+# Plotting location of UPS Stores
 
 Plotting 'UPS-Stores' and "UPS Customer Center Facility" on the map of Manhattan. These facilities act as access points for UPS trucks to pick-up orders to be delivered.
 
 ## UPS Stores and UPS Customer Center Facility in Manhattan
 
+<div id="folium-chart-1"></div>
+
+## Un-supervised Clustering Analysis to geo-locate proximity of facilities
+
+![NYC_ML]({{ site.url }}{{ site.baseurl }}/assets/Manhattan_Images/PNG/images/NYC_ML.png)
+
+![NYC_Buffer]({{ site.url }}{{ site.baseurl }}/assets/Manhattan_Images/PNG/images/NYC_Buffer.png)
+
+
+
 Below, we show the distance between residential sales and the average distance to the 5 nearest 311 calls for abandoned cars.
 
-<div id="folium-chart-1"></div>
+
 
 ![distances-abandoned-cars]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
