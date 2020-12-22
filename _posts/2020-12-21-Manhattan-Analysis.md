@@ -24,7 +24,7 @@ UPS Stores and UPS Customer Center Facilities in Manhattan
 <div id="folium-chart-1"></div>
 
 ## DBSCAN Un-supervised Clustering Analysis
-There were 48 UPS customer center and UPS store facilities in the Manhattan Area, of which we assume that not all facilities would provide delivery service since they are located in close proximities. We used DBSCAN and unsupervised clustering algorithm to determine 3 clusters for further analysis. Each cluster has a varying number of UPS stores with figures 04, 05, and 21 UPS stores clustered for a particular label. The fourth cluster was chosen from noise samples to account for UPS Stores at farther locations.
+There were 48 UPS customer center and UPS store facilities in the Manhattan Area, of which we assume that not all facilities would provide delivery service since they are located in close proximities. We used DBSCAN and unsupervised clustering algorithm to determine 3 clusters for further analysis. Each cluster has a varying number of UPS stores with figures 04, 05, and 21 UPS stores clustered for a particular label. The fourth cluster was chosen from noise samples to account for UPS Stores at farther locations.<br/>
 The following graph shows the number of UPS points clustered under each label. Label(-1) is noise. <br/>
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/ML Labels.png)  <br/>
 
