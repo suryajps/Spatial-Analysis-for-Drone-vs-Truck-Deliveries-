@@ -105,9 +105,9 @@ analytics:
 
 # Site Author
 author:
-  name: "Surya"
+  name: "Atharva Ranade, Surya Prabhakaran"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "MSD-EBD, UPenn"
+  bio: "UPenn"
   location: "Philadelphia"
   email:
   links:
@@ -129,31 +129,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-author:
-  name: "Atharva Ranade"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "MSD-AAD, UPenn"
-  location: "Philadelphia"
-  email:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      
 # Site Footer
 footer:
   links:
