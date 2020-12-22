@@ -3,7 +3,7 @@ title: "Yonkers County Analysis"
 date: 2020-12-21
 published: true
 tags: [dataviz, matplotlib]
-excerpt: "Testing package delivery in an urban-block street network"
+excerpt: "OSMNX | Shortest Path | GeoPandas | Folium"
 folium-loader:
   folium-chart-1: ["/assets/Yonkers_Images/Folium/2020-12-21-Yonkers-allfacility.html", "400"] # second argument is the height
   folium-chart-2: ["/assets/Yonkers_Images/Folium/2020-12-21-Yonkers-route-case1.html", "400"] # second argument is the height
