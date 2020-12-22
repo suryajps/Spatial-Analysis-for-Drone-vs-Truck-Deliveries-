@@ -37,7 +37,7 @@ We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manh
 
 ## Identifying 20 random samples (delivery recipients) in cluster-zone-2 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-Drone-case2.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-destinations-Case2.png)
 
 ## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
