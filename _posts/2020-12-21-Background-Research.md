@@ -14,8 +14,9 @@ The project is drawn from a research paper published by author, Anne et al. at t
 
 Our final project seeks to conduct a similar analysis on two sites, Manhattan NYC was chosen as a dense urban condition and Yonker’s county was chosen for studying a suburban condition. The project seeks to establish connections, correlations and premise for further research. Although, there are various limitations to the scope of this study, we have tried to match the spatial scenarios to realistic conditions. We also did not get access to a dataset which provided actual delivery information on number of deliveries made or distances traveled by UPS trucks. Hence the analysis is limited by many assumptions. 
 
-*References:*
-*Goodchild, Anne, and Jordan Toy. 2018. “Delivery by Drone: An Evaluation of Unmanned Aerial Vehicle Technology in Reducing CO2 Emissions in the Delivery Service Industry.” Transportation Research Part D: Transport and Environment, Innovative Approaches to Improve the Environmental Performance of Supply Chains and Freight Transportation Systems, 61 (June): 58–67.* [https://doi.org/10.1016/j.trd.2017.02.017][here]
+*References:* <br/>
+*Goodchild, Anne, and Jordan Toy. 2018. “Delivery by Drone: An Evaluation of Unmanned Aerial Vehicle Technology in Reducing CO2 Emissions in the Delivery Service Industry.” Transportation Research Part D: Transport and Environment, Innovative Approaches to Improve the Environmental Performance of Supply Chains and Freight Transportation Systems, 61 (June): 58–67.* 
+[https://doi.org/10.1016/j.trd.2017.02.017][here]
 
 
 [https://doi.org/10.1016/j.trd.2017.02.017]: https://doi.org/10.1016/j.trd.2017.02.017
