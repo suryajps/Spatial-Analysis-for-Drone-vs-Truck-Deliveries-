@@ -28,6 +28,9 @@ There were 48 UPS customer center and UPS store facilities in the Manhattan Area
  
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/NYC_ML.png)
 
+The following graph shows the number of UPS points clustered under each label. Label(-1) is noise.
+![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/ML Labels.png)
+
 ## Buffer radius of 1.5km from each facility: 
 The urban area of Manhattan is categorized into zones (buffer radii or optimized polygon) for each UPS store. The radii for each buffer is determined to ensure minimum overlap. Each buffer zone serves as a bounding radius for the maximum travel path of trucks and drones.
 
