@@ -1,5 +1,5 @@
 ---
-title: "Package Delivery using Truck and Drones in Yonkers County"
+title: "Yonkers County Analysis"
 date: 2020-12-21
 published: true
 tags: [dataviz, matplotlib]
@@ -15,6 +15,8 @@ toc_sticky: true
 read_time: false
 ---
 
+## Package Delivery using Truck and Drones in Yonkers County
+
 ## Plotting location of UPS Stores using  
 
 We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manhattan Map. These facilities serve as access points for UPS trucks to pick-up orders that are to be delivered.
@@ -25,7 +27,7 @@ We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manh
 
 ## Buffer radius of 4km from each facility 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-Buffers.png)
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-Buffers.png, "20")
 
 ## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
 
