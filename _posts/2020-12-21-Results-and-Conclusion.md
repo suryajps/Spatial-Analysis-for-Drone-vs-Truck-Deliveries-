@@ -19,7 +19,7 @@ Manhattan <br />
 Yonkers County <br />
 ![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-Co2-comparison.png)
 
-Conclusion:
+Conclusion: <br />
 •	Since the scope of analysis is limited to a 1 mile radius, the emissions of drones had negligible differences with varying energy requirements in all conditions. <br />
 •	We could infer that a higher difference in CO2 emissions was due to larger distances (number of points in the case of urban condition) leading to trucks emitting more CO2 than drones. <br />
 •	In order to study a scenario where drones emit more CO2, a larger radius may have to be considered and studied. <br />
