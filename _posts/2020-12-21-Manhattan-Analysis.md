@@ -66,5 +66,11 @@ Truck path for 45 delivery locations
 
 From the above analysis, we calculated the Vehicle Miles Traveled and associated CO2 Emissions for Trucks.
 
+The calculated results can be found [here][here]
+
+
+
+[here]:https://suryajps.github.io/Spatial-Analysis-for-Drone-vs-Truck-Deliveries-/Results-and-Conclusion/
+
 
 
