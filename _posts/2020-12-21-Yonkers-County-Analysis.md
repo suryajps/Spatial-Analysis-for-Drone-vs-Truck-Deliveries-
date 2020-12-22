@@ -27,23 +27,28 @@ We started with plotting 'UPS-Stores' and "UPS Customer Center Facility" on Manh
 
 ## Buffer radius of 4km from each facility 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-Buffers.png, "20")
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-Buffers.png)
 
-## Identifying 20 random samples (delivery recipients) in cluster-zone-1 
 
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-destinations-Case1.png)
+## Cluster Zones
+# Identifying 30 random samples (delivery recipients) in cluster-zone-1 and cluste-zone-2
 
-## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/random points_yonkers.png)
+
+## UPS Truck path of travel:
+Cluster-zone-01: 
+Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
 <div id="folium-chart-2"></div>
 
-## Identifying 20 random samples (delivery recipients) in cluster-zone-2 
-
-![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/2020-12-21-Yonkers-origin-destinations-Case2.png)
-
-## Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
+Cluster-zone-02: 
+Mapping one continous route from origin point (UPS facility) through the random samples (delivery recipients) and looping back to start point. 
 
 <div id="folium-chart-3"></div>
+
+## Drone path of travel:
+
+![nyc-buffer]({{ site.url }}{{ site.baseurl }}/assets/images/yonkers_Drone.png)
 
 
 
