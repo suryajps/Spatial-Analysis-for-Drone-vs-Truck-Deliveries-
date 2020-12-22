@@ -39,7 +39,7 @@ The urban area of Manhattan is categorized into zones (buffer radii or optimized
 
 ## Origin Point and Destination Point
 The origin point is located at the center of the buffer polygon. The nearest open-street-map(OSM) node is also calculated
-The number of destination points in each zone are determined based on the size of the clusters and therefore the density of the neighborhood. For example, the noise cluster is assumed to have the least number of destination points while the cluster with size 24 is assumed to have most destination points.
+The number of destination points in each zone are determined based on the size of the clusters and therefore the density of the neighborhood. For example, the noise cluster is assumed to have the least number of destination points while the cluster with size 21 is assumed to have most destination points.
 
 ## Delivery recipients in cluster-zones 
 Selection of a number of sample points (8, 20, 35 and 45) respectively was based on the machine learning clusters. These points can always be increased incrementally.
