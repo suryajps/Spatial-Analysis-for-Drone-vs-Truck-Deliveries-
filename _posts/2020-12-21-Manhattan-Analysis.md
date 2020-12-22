@@ -28,7 +28,7 @@ There were 48 UPS customer center and UPS store facilities in the Manhattan Area
  
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/NYC_ML.png)
 
-The following graph shows the number of UPS points clustered under each label. Label(-1) is noise.
+The following graph shows the number of UPS points clustered under each label. Label(-1) is noise. <br/>
 ![nyc-ml]({{ site.url }}{{ site.baseurl }}/assets/images/ML Labels.png)
 
 ## Buffer radius of 1.5km from each facility: 
